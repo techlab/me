@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Dipu Raj">
+
+  <title>Dipu Raj - a little more about me</title>
+  <meta property="og:title" content="Dipu Raj - a little more about me" />
+
+  <meta name="description" content="A little more about Dipu" />
+  <meta property="og:description" content="A little more about Dipu"/>
+  <meta property="og:image" content="assets/images/dipu_raj.jpg" />
+  <link rel="image_src" href="assets/images/dipu_raj.jpg" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://dipu.me/" />
+  <meta property="og:site_name" content="Dipu Raj" />
+
+  <meta name="KEYWORDS" content="jQuery,shoppingcart,cart,smartcart,smartwizard,smarttab,wizard,jcart,jwizard,shopping,plugin" />
+  <meta name="KEYPHRASES" content="jQuery,shoppingcart,cart,smartcart,smartwizard,smarttab,wizard,jcart,jwizard,shopping,plugin" />
+  <meta name="copyright" content="dipu.me" />
+  <meta name="author" content="Dipu Raj" />
+
+  <meta property="fb:app_id" content="673048839" />
+  <meta name="theme-color" content="#00aeef">
+  <!-- Windows Phone -->
+  <meta name="msapplication-TileColor" content="#00aeef">
+  <meta name="msapplication-navbutton-color" content="#00aeef">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-startup-image" href="assets/images/dipu_raj.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- Fonts -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet"> -->
+  <link href='http://fonts.googleapis.com/css?family=Merriweather:300' rel='stylesheet' type='text/css' />
+  <!-- Icons -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+
+  <style>
+  body {
+      color: #666;
+      font-family: Merriweather,Segoe UI,Tahoma,arial,sans-serif;
+      /* font-family: 'Playfair Display', serif; */
+  }
+  a {
+    color: #0da4d3;
+    -webkit-transition: color .3s,background-color .3s;
+    transition: color .3s,background-color .3s
+  }
+  a:focus,a:hover {
+      color: #111;
+      text-decoration: none;
+      outline: none
+  }
+
+  .smart-list {
+    list-style: none;
+    padding: 0px 10px 10px 0;
+    position: relative
+  }
+
+  .smart-list>li {
+      margin-left: 25px;
+      margin-bottom: 5px;
+      position: relative
+  }
+
+  .smart-list>li:before {
+      content: "\F111";
+      display: table;
+      font-family: FontAwesome;
+      text-decoration: inherit;
+      position: absolute;
+      top: 0;
+      left: -20px;
+      text-align: center;
+      z-index: 100
+  }
+
+  .smart-list>li.added:before {
+      content: "\F055";
+      color: #5cb85c
+  }
+
+  .smart-list>li.changed:before {
+      content: "\F042";
+      color: #5bc0de
+  }
+
+  .smart-list>li.deprecated:before {
+      content: "\F0AB";
+      color: #d9534f
+  }
+
+  .smart-list>li.removed:before {
+      content: "\F056";
+      color: #c7254e
+  }
+
+  .smart-list>li.fixed:before {
+      content: "\F192";
+      color: #0a8
+  }
+
+  .smart-list>li.unreleased:before {
+      content: "\F06D";
+      color: #f0ad4e
+  }
+
+  .smart-list>li.forward:before {
+      content: "\F101";
+      color: #5bc0de
+  }
+
+
+  .sidebar {
+      -webkit-box-shadow: 0 3px 8px rgba(0,0,0,.1);
+      box-shadow: 0 3px 8px rgba(0,0,0,.1);
+      border-width: 0;
+      border-top-left-radius: 0 !important;
+      border-top-right-radius: 0 !important;
+  }
+  .sidebar-main-text {
+    text-decoration: none;
+    color: #00aeef;
+    font-size: 64px;
+    outline-style: none;
+  }
+  .sidebar-main-sub {
+    font-size: 18px;
+  }
+
+
+  .social-link {
+      width: 32px;
+      height: 32px;
+      display: inline-block;
+      text-align: center;
+      text-decoration: none;
+      outline-style: none;
+      color: #ccc;
+      border: 0px solid #ccc;
+      border-radius: 50%
+  }
+
+  .social-link:hover {
+      color: #666;
+  }
+  </style>
+
+</head>
+
+<body>
+
+  <main role="main" class="container">
+    <div class="row">
+
+      <aside class="col-md-4 ">
+        <div class="card border-light text-center sidebar">
+          <img src="assets/images/dipu_raj.jpg" class="card-img-top rounded-0" alt="...">
+          <div class="card-body">
+            <h1 class="card-title sidebar-main-text">Dipu Raj</h1>
+            <h6 class="card-subtitle mt-2 text-muted sidebar-main-sub">a little more about me</h6>
+          </div>
+        </div>
+
+
+        <div class="mt-4 d-flex justify-content-center">
+          <small class="text-muted social-menu-title">Think we should connect?</small>
+        </div>
+
+        <nav class="mt-1 d-flex justify-content-center">
+          <a title="Email" href="mailto:hello@dipu.me" class="social-link social-email">
+                  <i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i></a>
+          <a title="Github" href="https://github.com/techlab" class="social-link social-github" target="_blank">
+                  <i class="fa fa-github fa-lg fa-fw" aria-hidden="true"></i></a>
+          <a title="Stackoverflow" href="http://stackoverflow.com/users/1112197/dipu-raj" class="social-link social-stackoverflow" target="_blank">
+                  <i class="fa fa-stack-overflow  fa-fw" aria-hidden="true"></i></a>
+          <a title="Facebook" href="http://fb.me/dipumedayil" class="social-link social-facebook" target="_blank">
+                  <i class="fa fa-facebook  fa-fw" aria-hidden="true"></i></a>
+          <a title="Twitter" href="https://twitter.com/dipumedayil" class="social-link social-twitter" target="_blank">
+                  <i class="fa fa-twitter  fa-fw" aria-hidden="true"></i></a>
+          <a title="Instagram" href="http://instagr.am/dipumedayil" class="social-link social-instagram" target="_blank">
+                  <i class="fa fa-instagram  fa-fw" aria-hidden="true"></i></a>
+          <a title="Skype" href="skype:dipurajendran?call" class="social-link social-skype" rel="nofollow">
+                  <i class="fa fa-skype fa-lg fa-fw" aria-hidden="true"></i></a>
+        </nav>
+      </aside>
+
+      <div class="col-md-8">
+
+          <div id="about" class="mt-3">
+            <!-- <h1 class="blog-post-title">About Me</h1>
+            <hr> -->
+
+            <p>
+                <!-- <i class="fa fa-angle-double-right"></i> -->
+                <strong class="display-4">Hello!</strong> I am Dipu, a software engineer based in India.
+                I have my main interest and focus on web technologies.
+                I love to work with PHP and C#.net.
+                Out of this love my passion has evolved to JavaScript, jQuery, Angular, React, Bootstrap, HTML and CSS.
+                Hence the creation of jQuery plugins <a href="http://techlaboratory.net/smartwizard">Smart Wizard</a>,
+                <a href="http://techlaboratory.net/smartcart">Smart Cart</a>
+                and <a href="http://techlaboratory.net/smarttab">Smart Tab</a> became inevitable.
+                I have also work on WPF and Node JS projects.
+                I am a constant contributor to the open source world with my little projects showcased on
+                <a href="http://techlaboratory.net">techlaboratory.net</a> and many more at my digital garage.
+                I belive that sharing knowledge is a greatest thing and so
+                I am an active member of question and answer platform <a href="https://stackoverflow.com/users/1112197/dipu-raj">StackOverflow</a>.
+                Read more about my studies, work and contributions at Stack Overflow <a href="http://stackoverflow.com/story/dipuraj">Developer Story</a>.
+            </p>
+
+
+            <!-- <p>
+                That's something about the technical part of me.
+                Yes! of course, I live my life too.
+                <br />In my life!, <em>I love to...</em><br />
+            </p> -->
+
+            <!-- <p>
+                <i class="fa fa-plane"></i>
+                <strong>travel</strong> and meet new people, know different culture.
+                I have a lot good memories from my travels.
+                Also it is the best escape for me to break the stress and get relaxed.
+                My traveller friend once told me:
+                <blockquote><em>"The world is awesome, know it as much as you can"</em></blockquote>
+            </p>
+
+            <p>
+                <i class="fa fa-music"></i>
+                <strong>listen music, </strong>
+                I am open to all kind of music, but have a few personal preference too
+                and it changes from time to time. So its hard to list my personal favorites.
+                Once my rocker friend told me this:
+                <blockquote><em>"Music is a drug that can control your emotions"</em></blockquote>
+            </p>
+
+            <p>
+                <i class="fa fa-book"></i>
+                <strong>read books,</strong>
+                I would say I am selective and slow reader.
+                Read only what my friends suggest me and take many days than usual to complete a book.
+                I read fictions and non-fictions including novels, stories, magazines, articles and comics too.
+
+                My bookworm friend always says:
+                <blockquote><em>"Reading is, traveling to another world with no cost"</em></blockquote>
+            </p>
+
+            <p>
+                <i class="fa fa-film"></i>
+                <strong>watch movies,</strong>
+                I would never say no to another language films
+                and the list goes on like Indian, English, Korean, Latin, French, Spanish...
+            </p> -->
+
+            <!--                            <p>
+                <i class="fa fa-users"></i>
+                <strong>be with friends and family</strong>
+            </p>
+
+            <p>
+                <i class="fa fa-angle-double-right"></i>
+                <strong>Vision towards life</strong>
+                is to be myself, trust in me, find the best part in me and be a nice human being.
+                I always make sure that I live the gifted life awesome in this world.
+                The only person I have to satisfy is me.
+            </p>
+
+            <p>
+                <i class="fa fa fa-angle-double-right"></i>
+                <strong>Things I adore</strong>
+                is not limited to but including a pleasant smile, hot coffee,
+                empty roads, helpful mind...
+            </p> -->
+        </div>
+
+        <div id="works" class="mt-3">
+            <h2>My Works</h2>
+            <hr />
+
+            <ul class="smart-list">
+                <li class="forward">
+                    <p>
+                        <h4 class="media-heading"><a href="http://techlaboratory.net/smartwizard">Smart Wizard</a></h4>
+                        An awesome jQuery step wizard plugin with Bootstrap support.
+                    </p>
+                </li>
+                <li class="forward">
+                    <p>
+                        <h4 class="media-heading"><a href="http://techlaboratory.net/smartcart">Smart Cart</a></h4>
+                        A flexible and feature rich jQuery plug-in for shopping cart.
+                    </p>
+                </li>
+                <li class="forward">
+                    <p>
+                        <h4 class="media-heading"><a href="http://techlaboratory.net/smarttab">Smart Tab</a></h4>
+                        A flexible jQuery Tab Control plug-in.
+                    </p>
+                </li>
+                <li class="forward">
+                    <p>
+                        <h4 class="media-heading"><a href="http://techlaboratory.net/smartgrid">Smart Grid</a></h4>
+                        A simple PHP datagrid control for CodeIgniter framework with Bootstrap.
+                    </p>
+                </li>
+                <li class="forward">
+                    <p>
+                        <h4 class="media-heading"><a href="http://techlaboratory.net">TechLaboratory.net</a></h4>
+                        It is a website that intended for distributing and show casing my projects
+                        absolutely free and open.
+                    </p>
+                </li>
+                <!-- <li class="forward">
+                    <p>
+                        <h4 class="media-heading"><a href="http://jsplanet.net">JSPlanet.net</a></h4>
+                        Listing site for hand picked JavaScript projects.
+                    </p>
+                </li> -->
+                <li class="forward">
+                    <p>
+                        <h4 class="media-heading"><a href="http://dipu.me">Dipu.me</a></h4>
+                        This is my personal website that you see now.
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+  </main>
+
+  <footer class="border-top">
+    <p class="text-center p-4">
+      &copy;
+      <script>
+        document.write(new Date().getFullYear())
+      </script>
+      <a href="./">dipu.me</a>
+    </p>
+  </footer>
+
+  <!-- Core -->
+  <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
+
+</body>
+</html>
